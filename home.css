@@ -1,19 +1,38 @@
 body {
-    background-color: white;
+    background-color: #f2f0ea;
+    color: #1E4830;
+    font-family: Gilda Display, serif;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+header {
+    position: absolute;
+    z-index: 2;
+}
+
+p {
+    font-size: 24px;
 }
 
 .nav {
     display: flex;
-    justify-content: center;
+    z-index: 1;
+    justify-content: right;
     width: 100%;
+    margin-top: 80px;
+    background-color: #304c26;
+    border-radius: 13px;
 }
 
 .nav-link {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: #f3f0ea;
     padding: 20px 0px;
     margin: 0px 20px;
     display: inline-block;
@@ -35,7 +54,7 @@ body {
     border-radius: 10px;
     content: "";
     position: absolute;
-    background-color: green;
+    background-color: #ce5d2a;
 }
 
 .nav-link-ltr::before {
@@ -44,5 +63,21 @@ body {
 }
 
 .nav-link-ltr:hover::before {
+    width: 100%;
+}
+
+.gilda-display-regular {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footerstyle {
+    background-color: #304c26;
+    color: #f3f0ea;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px;
     width: 100%;
 }
