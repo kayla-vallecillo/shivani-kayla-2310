@@ -8,6 +8,10 @@ h1 {
     font-size: 90px;
 }
 
+name {
+	font-size: 150px;
+}
+
 header {
     position: absolute;
     z-index: 2;
@@ -81,3 +85,64 @@ p {
     border-radius: 12px;
     width: 100%;
 }
+
+.container {
+	margin-left:20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	border-color: #074B3F;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	}
+	
+.flex {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: space-between;
+	}	
+	
+.floatleft {
+			float: left;
+			
+	}
+
+.floatright {
+		float: right;
+		
+	}
+	
+.image {
+	margin: 50px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1; 
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #d05b25;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+	

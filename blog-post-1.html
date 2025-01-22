@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Post #1</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
-    <header>
-        <h1>Blog Title</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="meet-the-team.html">Meet The Team</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div style="vertical-align: middle;">
+        <header>
+            <img src="Pictures/sk-logo.png"
+                style="width: 250px; padding-left: 20px; padding-top: 10px; z-index: 3; position: relative; top: -100px;"
+                alt="Shivani & Kayla's Blog Logo">
+        </header>
+
+		<nav>
+		    <div class="nav">
+		        <a class="nav-link nav-link-ltr active" href="index.html">Home</a>
+		        <a class="nav-link nav-link-ltr" href="meet-the-team.html">Meet the Team</a>
+		        <div class="dropdown">
+		            <a class="nav-link nav-link-ltr" href="background.html">Blog</a>
+		            <div class="dropdown-content">
+		                <a href="blog-post-1.html">Blog Post 1</a>
+		            </div>
+		        </div>
+		    </div>
+		</nav>
+		
+		 <h1>Introductions!</h1>
+    
     <main>
         <article>
             <h2>Post Title</h2>
