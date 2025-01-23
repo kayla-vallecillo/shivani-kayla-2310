@@ -139,7 +139,7 @@ p {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #d05b25;}
+.dropdown-content a:hover {color: #d05b25;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
